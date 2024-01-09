@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos Centro de Estética Corporal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h2>Ingresar Paciente</h2>
+        <div class="formContenedor">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="formContenedor">
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="form-control" id="apellido">
+        </div>
+        <button class="btn btn-primary" onclick="ingresarPaciente()">Ingresar</button>
+
+        <h2 class="mt-4">Turnos</h2>
+        <ul id="turnosList" class="lista"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
